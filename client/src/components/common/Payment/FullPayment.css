@@ -1,0 +1,60 @@
+.full-payment{
+    background-color: #f5fcf5;
+    width: 250px;
+    border: 1px solid gainsboro;
+    border-radius: 5%;
+    padding: 10px 10px;
+    margin: 20px 20px 20px 0px;
+    text-align: center;
+}
+.pay-off{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.pay-off>p{
+    color: blue;
+    font-size: 15px;
+}
+.full-p-m{
+   margin: auto;
+}
+
+.full-p-m>h1{
+    font-size: 26px;
+    font-weight: 400;
+    margin-bottom: 0px;
+}
+
+.full-p-m>p{
+    color: blue;
+    font-size: 14px;
+    margin-left: 50px;
+}
+.full-rate{
+   
+    margin: 30px auto auto;
+}
+.full-rate>h1{
+    font-size: 31px;
+    font-weight: 400;
+    margin-bottom: 0px;
+}
+
+.full-rate>p{
+    margin-left: 50px;
+}
+
+.full-payment>Button{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: white;
+    background-color: #82e077;
+    padding: 10px 20px;
+    font-size: 15px;
+}
+
+.full-payment>Button:hover{
+    color: green;
+    border: 1px solid green;
+    background-color: white;
+}

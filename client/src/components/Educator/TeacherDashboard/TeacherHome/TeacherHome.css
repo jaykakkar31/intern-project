@@ -1,0 +1,282 @@
+.educator-home {
+  display: flex;
+}
+
+.home-main {
+  padding: 20px 10px 20px 40px;
+  background-color: rgb(246, 246, 246);
+  flex-grow: 1;
+}
+
+.home-main > h1 {
+  font-size: 27px;
+  color: #686f68;
+}
+
+.home-main > div {
+  display: flex;
+  flex-wrap: wrap;
+}
+.stats-view {
+  width: 55%;
+}
+.main-stats {
+  padding: 15px 30px 55px;
+  background-color: #e9f2ff;
+  margin-top: 20px;
+}
+.main-stats > div > h3 {
+  font-weight: 400;
+  font-size: 25px;
+}
+.main-stats-head > p {
+  margin-top: 5px;
+  background-color: white;
+  padding: 0px 20px;
+  border-radius: 10%;
+}
+.main-stats-head {
+  display: flex;
+  justify-content: space-between;
+}
+.stat-days {
+  margin-left: 35px;
+}
+.stat-days > span {
+  margin: 20px 5%;
+}
+.main-stats > div > svg {
+  border: 1px solid;
+  border-top: hidden;
+  border-right: hidden;
+  border-left: hidden;
+  margin-bottom: 10px;
+}
+.left-graph-num {
+  border-right: 1px solid;
+  height: 400px;
+}
+.left-graph-num > p {
+  margin: 27px 10px;
+}
+.main-graph {
+  display: flex;
+}
+.stu-nroll {
+  display: flex;
+}
+.nroll {
+  width: 40%;
+  background-color: #e6f1ff;
+  padding: 15px;
+  border-radius: 5%;
+  margin: 50px 30px;
+}
+.nroll > hr {
+  margin-top: 0px;
+  color: #96caf5;
+  height: 3px;
+}
+.head-nroll {
+  display: flex;
+  justify-content: space-between;
+}
+.head-nroll > h1 {
+  font-weight: 400;
+  font-size: 18px;
+  margin-bottom: 0px;
+}
+.head-nroll > p {
+  margin-bottom: 8px;
+  font-size: 14px;
+  background-color: #f2f8ff;
+  padding: 3px 10px;
+  border-radius: 40%;
+}
+.main-nroll {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+  margin-left: 25px;
+}
+.main-nroll > h1 > span {
+  color: #82e077;
+  font-size: 40px;
+}
+.box-icon {
+  margin-top: 50px;
+  font-size: 80px !important;
+  color: #c5ddff;
+}
+
+.cal-date {
+  padding: 15px 24px;
+  flex-grow: 1;
+  background-color: #e9f2ff;
+  margin-top: 20px;
+  margin-left: 30px;
+  border-radius: 12px;
+}
+.cal-head {
+  display: flex;
+  justify-content: space-between;
+}
+.cal-head > h3 {
+  font-weight: 400;
+  font-size: 25px;
+}
+.react-calendar {
+  width: 500px;
+  background-color: #e9f2ff;
+  border: none;
+  margin: auto;
+}
+.react-calendar__tile--now {
+  background: #aaecac;
+}
+.react-calendar__tile {
+  border-radius: 100%;
+  padding: 20px 0px;
+}
+.time-routine {
+  margin-top: 30px;
+}
+.time-routine > h3 {
+  font-size: 17px;
+  font-weight: 400;
+  color: blue;
+  background-color: white;
+  padding: 15px 20px;
+  margin-top: 10px;
+  border-radius: 2%;
+}
+
+.time-routine > h3 > span {
+  margin-left: 12px;
+}
+
+@media (max-width: 1637px) {
+  .cal-date {
+    flex-grow: 0;
+  }
+  .react-calendar {
+    width: 400px;
+  }
+}
+
+@media (max-width: 1344px) {
+  .home-main {
+    width: 70%;
+  }
+  .stats-view {
+    flex-grow: 1;
+    margin-right: 30px;
+  }
+  .cal-date {
+    flex-grow: 1;
+    margin-right: 50px;
+  }
+}
+
+@media (max-width: 915px) {
+  .cal-date {
+    margin-left: 0px;
+  }
+  .stats-view {
+    margin-left: -30px;
+    margin-right: 10px;
+  }
+  .stat-days > span {
+    margin: 20px 4%;
+  }
+  .nroll {
+    margin: 50px 8px 50px 31px;
+    height: 190px;
+  }
+  .head-nroll > h1 {
+    font-size: 13px;
+    margin-top: 4px;
+  }
+  .main-nroll > h1 {
+    font-size: 29px;
+  }
+  .main-nroll > h1 > span {
+    font-size: 27px;
+  }
+  .box-icon {
+    font-size: 56px !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .stat-days {
+    margin-left: 46px;
+  }
+  .stat-days > span {
+    margin: 20px 4%;
+  }
+  .react-calendar {
+    width: 302px;
+  }
+  .cal-date {
+    margin-left: -30px;
+  }
+  .stu-nroll {
+    display: block;
+  }
+  .nroll {
+    width: 80%;
+  }
+}
+
+@media (max-width: 500px) {
+  .stat-days > span {
+    margin: 20px 2%;
+  }
+  .left-graph-num {
+    height: 200px;
+  }
+  .left-graph-num > p {
+    margin: 2px 10px;
+  }
+  .main-stats > div > svg {
+    height: 200px;
+    stroke-width: 7px;
+  }
+  .educator-home{
+    display: block;
+  }
+  .home-main{
+    width: 100%;
+  }
+  .cal-date{
+    margin-right: 0px;
+  }
+}
+
+@media (max-width: 423px) {
+  .react-calendar {
+    width: 295px;
+  }
+  .main-stats {
+    padding: 15px 5px 55px;
+  }
+  .stats-view {
+    width: 112%;
+  }
+  .cal-date {
+    padding: 15px 10px;
+  }
+}
+
+@media (max-width: 374px) {
+  .stat-days > span {
+    font-size: 12px;
+  }
+  .react-calendar {
+    width: 247px;
+  }
+  .time-routine > h3 {
+    font-size: 15px;
+  }
+}

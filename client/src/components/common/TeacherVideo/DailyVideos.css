@@ -1,0 +1,55 @@
+.daily-videos{
+    padding: 15px 20px;
+    width: 450px;
+    margin-left: 30px;
+    background-color: #e6f1ff;
+    color : #686f68;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.daily-videos>img{
+    width: 410px;
+}
+
+.daily-videos>div{
+    text-align: right;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.daily-videos-l{
+    text-align: left;
+}
+.daily-videos-l>h2{
+    font-size: 18px;
+    font-weight: 400;
+    color: black;
+}
+.daily-videos>div>div>p{
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+
+@media (max-width:1023px) {
+    .daily-videos>img{
+        width: 330px;
+    }
+}
+
+@media (max-width:767px) {
+    .daily-videos>img{
+        width: 100%;
+    }
+    .daily-videos-l>h2{
+        font-size: 15px;
+    }
+    .daily-videos>div>div>p{
+        font-size: 10px;
+    }
+    .daily-videos{
+        margin-right: 30px;
+        margin-left: 0px;
+    }
+}

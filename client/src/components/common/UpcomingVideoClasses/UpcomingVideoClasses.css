@@ -1,0 +1,61 @@
+.upcoming-vid-class{
+    width: 100%;
+    padding: 13px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.08);
+    border-radius: 5px;
+    margin: 20px auto;
+    cursor: pointer;
+}
+.upcoming-vid-class>Button{
+    font-size: 12px;
+    text-transform: capitalize;
+    color: white;
+    background-color: red;
+    padding: 5px;
+}
+.upcoming-vid-class>Button:hover{
+    color: red;
+    background-color: white;
+}
+.upcoming-vid-class>p{
+    margin-bottom: 0px;
+}
+.main-upcoming-vid-class{
+    display: flex;
+    margin-top: 10px;
+}
+.left-main-u-v-c{
+    margin-right: 20px;
+}
+.left-main-u-v-c>div{
+    display: flex;
+    justify-content: space-between;
+}
+.left-main-u-v-c>div>p, .left-main-u-v-c>p{
+    font-size: 12px;
+    color: rgba(39, 39, 39, 0.7);
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.right-main-u-v-c{
+    color: rgba(39, 39, 39, 0.7);
+}
+.right-main-u-v-c>h6{
+    font-size: 14px;
+}
+.right-main-u-v-c>h5{
+    margin-top: 20px;
+    font-size: 15px;
+    margin-bottom: 2px;
+}
+.right-main-u-v-c>p{
+    font-size: 11px;
+}
+.right-main-u-v-c>Button{
+    margin-top: 40px;
+    width: 100%;
+    border: 1px solid rgba(39, 39, 39, 0.7);
+    border-radius: 3px;
+}

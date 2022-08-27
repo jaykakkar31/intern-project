@@ -1,0 +1,29 @@
+.upcoming {
+	/* margin: 10px 0px 50px 20px; */
+	padding: 14px;
+	border: 1px solid rgb(236, 236, 236);
+	border-radius: 7%;
+	background-color: aliceblue;
+	width: 300px;
+	color: rgb(69, 69, 69);
+}
+.upcoming > img {
+	width: 100%;
+	margin-bottom: 20px;
+	border-radius: 5%;
+}
+.upcoming > p {
+	font-size: 15px;
+}
+
+/* @media (max-width : 768px){
+    .upcoming{
+        margin-left: 0px;
+    }
+} */
+
+@media (max-width: 500px) {
+	.upcoming {
+		margin: 12px;
+	}
+}

@@ -1,0 +1,12 @@
+.t-time-table{
+    padding: 10px 14px 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+    border-radius: 12px;
+}
+
+.t-time-table>p{
+    font-size: 16px;
+    color: rgb(115, 115, 193);
+}

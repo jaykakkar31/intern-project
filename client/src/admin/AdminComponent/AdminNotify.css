@@ -1,0 +1,23 @@
+.admin-notify{
+    display: flex;
+    align-items: center;
+    padding: 10px 25px;
+    border-bottom: 1px solid rgb(226, 226, 226);
+    cursor: pointer;
+}
+.admin-notify>div{
+    display: flex;
+    justify-content: center;
+}
+.admin-notify>p{
+    width: 70%;
+}
+.admin-notify>h3{
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 14%;
+}
+.admin-notify>h4{
+    
+    color: #0062E7;
+}

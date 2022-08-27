@@ -1,0 +1,235 @@
+/* .icon-block { */
+/* position: fixed;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: red;
+    z-index: 1;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: white; */
+.footer-block {
+    /* position: fixed; */
+    /* bottom: 0;
+    left: 0; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    height: 90px;
+    background: #000;
+    z-index: 1;
+    position: relative;
+    border: none;
+}
+
+.icon-block {
+    width: 75px;
+    height: 40px;
+    /* border-radius: 50%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 20px;
+    background: red;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.icon-block .MuiSvgIcon-root {
+    color: white;
+}
+
+p {
+    margin: 0;
+}
+.screen-share {
+    position: absolute;
+    right: 0;
+    background: white;
+    border-radius: 0;
+    width: fit-content;
+    flex-direction: column;
+    padding: 2%;
+}
+.screen-share .MuiSvgIcon-root {
+    color: #635f63;
+}
+
+.footer-chat {
+    border: none;
+    border-radius: 5px;
+}
+.footer-chat button {
+    background-color: #51c144;
+    width: 16%;
+    height: 45%;
+    border: none;
+    color: white;
+    font-size: 23px;
+    font-weight: 500;
+    position: absolute;
+    right: 2%;
+    border-radius: 5px;
+    bottom: 28%;
+}
+
+.micOn {
+    background-color: #c4c4c445;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 5px;
+
+    color: white;
+}
+
+.vidOn {
+    background-color: #c4c4c445;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: white;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+.screenShareOn {
+    background-color: #c4c4c445;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: white;
+    border-radius: 5px;
+}
+
+.settingsOn {
+    background-color: #c4c4c445;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: white;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+.container-for-icons {
+    /* width: 100%; */
+    display: flex;
+    flex-direction: row;
+    margin-left: 0;
+    position: absolute;
+    left: 25%;
+}
+
+.footer-chat .MuiSvgIcon-root {
+    display: none;
+}
+
+@media (max-width: 1024px) {
+    .footer-block {
+        height: 70px;
+    }
+}
+
+@media (max-width: 324px) {
+    .container-for-icons {
+        left: 16%;
+        width: 50%;
+    }
+    .container-for-icons .MuiSvgIcon-root {
+        width: 30px;
+    }
+    .icon-block {
+        margin: 0 10px;
+    }
+    .footer-chat button {
+        display: none;
+    }
+    .footer-block {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    /* .settingsOn {
+        display: none;
+    } */
+    .footer-chat {
+        display: flex;
+        align-items: center;
+    }
+    .footer-chat .MuiSvgIcon-root {
+        /* display: block; */
+        position: absolute;
+        right: 2%;
+        background-color: #c4c4c445;
+        height: 40px;
+        width: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        color: white;
+        border-radius: 5px;
+    }
+    .container-for-icons {
+        width: 30%;
+    }
+
+}
+@media (max-width: 767px) {
+    .footer-chat button {
+        display: none;
+    }
+    .container-for-icons {
+        width: 50%;
+    }
+    .icon-block {
+        margin: 0 10px;
+    }
+    .footer-chat .MuiSvgIcon-root {
+        /* display: block; */
+        position: absolute;
+        right: 2%;
+        background-color: #c4c4c445;
+        height: 40px;
+        width: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        color: white;
+        border-radius: 5px;
+    }
+    .footer-chat {
+        display: flex;
+        align-items: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .footer-chat button {
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .icon-block {
+        margin: 0 10px;
+    }
+}
+
+

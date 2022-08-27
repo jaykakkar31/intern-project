@@ -1,0 +1,74 @@
+.educator-videos {
+  display: flex;
+}
+
+.teach-vid-main {
+  padding: 20px 10px 20px 40px;
+  background-color: rgb(246, 246, 246);
+  flex-grow: 1;
+  width: 70%;
+}
+
+.teach-vid-main > h1 {
+  font-size: 27px;
+  color: #686f68;
+}
+
+.teach-vid-main > Button {
+  margin-top: 20px;
+  text-transform: capitalize;
+  font-size: 18px;
+  margin-right: 30px;
+  padding: 5px 20px;
+  background-color: rgb(234, 230, 230);
+}
+.teach-vid-main > Button:hover {
+  background-color: rgb(223, 240, 246);
+}
+.all-videos-t > h3 {
+  font-size: 24px;
+  color: #171817;
+  font-weight: 400;
+  margin-top: 40px;
+}
+.teach-daily-videos::-webkit-scrollbar {
+  width: 0 !important;
+}
+.teach-daily-videos {
+  display: flex;
+  flex-grow: initial;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+}
+.batches-video {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  flex-grow: 1;
+}
+
+@media (max-width: 767px) {
+  .teach-daily-videos {
+    flex-wrap: wrap;
+  }
+}
+@media (max-width:500px) {
+  .educator-videos{
+    display: block;
+  }
+  .teach-vid-main{
+    width: 100%;
+  }
+}
+@media (max-width: 425px) {
+  .teach-vid-main {
+    padding: 20px 10px 20px 20px;
+  }
+  .teach-vid-main > Button {
+    font-size: 15px;
+    margin-right: 18px;
+  }
+  .teach-vid-main > h1 {
+    font-size: 23px;
+  }
+}

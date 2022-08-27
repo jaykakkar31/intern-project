@@ -1,0 +1,73 @@
+
+
+.column {
+  float: left;
+  width: 240px;
+  padding: 5px;
+}
+.column1 {
+  margin-top: 35px;
+}
+
+.container-about {
+  width: 100%;
+  .banner {
+    background-image: url("../../images/about.png");
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 530px;
+    position: relative;
+    .head-text {
+      position: absolute;
+      margin-left: 40px;
+      margin-top: 180px;
+      .head {
+        margin: 0 auto;
+        .head-inner {
+          font-size: 45px;
+          font-weight: 700;
+          color: white;
+        }
+        .head-inner span {
+          color:  #82E077;
+        }
+      }
+      .text {
+        width: 100%;
+        .text-inner {
+          font-size: 23px;
+          color: white;
+        }
+      }
+    }
+  }
+  .about {
+    margin: auto;
+  }
+  .heading-top {
+    margin: 30px;
+    color: #0062e7;
+    text-align: center;
+    font-size: 30px;
+    line-height: 34.5px;
+    font-weight: bold;
+  }
+  .about-sec-2{
+    display: flex;
+    justify-content: space-between;
+  }
+  .content1 {
+    .content-main{
+      
+      width: 85%;
+      margin: auto auto 3rem;
+      p{
+        font-size: 20px;
+      }
+    }
+  }
+}
+// ///////////FEATURE SECTION/////////

@@ -1,0 +1,29 @@
+.course-sub{
+    margin: 10px 0px 50px 20px;
+    padding: 17px 10px 8px 22px;
+    border: 1px solid rgb(236, 236, 236);
+    background-color: #dff7de;
+    width: 300px;
+    color: rgb(69, 69, 69);
+    border-radius: 15% 0%;
+}
+
+.course-sub>h1{
+    font-size: 20px;
+}
+.course-sub>p{
+    color: #737673;
+    font-size: 16px;
+}
+
+.course-time{
+    font-size: 14px !important;
+    margin-top: 10px;
+}
+
+
+@media (max-width : 767px){
+    .course-sub{
+        margin-left: 0px;
+    }
+}

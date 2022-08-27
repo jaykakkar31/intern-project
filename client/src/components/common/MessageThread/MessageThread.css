@@ -1,0 +1,25 @@
+.message-thread{
+    display: flex;
+    
+}
+.message-thread>div{
+    margin: 30px 20px;
+    padding: 10px 20px 0px;
+    border-radius: 10px;
+    
+}
+.message-thread>div>p{
+    line-height: 1.5rem;
+    font-size: 16px;
+    max-width: 35rem;
+    margin: 0px 0px 8px 0px;
+}
+.message-thread>div>div{
+    display: flex;
+    justify-content: flex-end;
+}
+.message-thread>div>div>p{
+    color: rgb(106, 103, 103);
+    font-size: 13px;
+    margin: 0px 0px 5px 0px;
+}

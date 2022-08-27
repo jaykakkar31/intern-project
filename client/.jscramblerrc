@@ -1,0 +1,76 @@
+{
+  "keys": {
+    "accessKey": "E69088D66FB05145863E5802651AA167197AAA11",
+    "secretKey": "C395FD16A56FA9718DCA406CC154986869529789"
+  },
+  "applicationId": "61632c9615146500125eceee",
+  "filesSrc": [
+    "./build/**/*.html",
+    "./build/**/*.js"
+  ],
+  "filesDest": "./",
+  "params": [
+    {
+      "name": "objectPropertiesSparsing"
+    },
+    {
+      "name": "variableMasking"
+    },
+    {
+      "name": "whitespaceRemoval"
+    },
+    {
+      "name": "identifiersRenaming",
+      "options": {
+        "mode": "SAFEST"
+      }
+    },
+    {
+      "name": "globalVariableIndirection"
+    },
+    {
+      "name": "dotToBracketNotation",
+      "options": {
+        "mode": "INLINE"
+      }
+    },
+    {
+      "name": "stringConcealing"
+    },
+    {
+      "name": "functionReordering"
+    },
+    {
+      "name": "functionOutlining",
+      "options": {
+        "freq": 1,
+        "features": [
+          "opaqueFunctions"
+        ]
+      }
+    },
+    {
+      "name": "propertyKeysObfuscation",
+      "options": {
+        "encoding": [
+          "hexadecimal"
+        ]
+      }
+    },
+    {
+      "name": "regexObfuscation"
+    },
+    {
+      "name": "booleanToAnything"
+    }
+  ],
+  "areSubscribersOrdered": false,
+  "useRecommendedOrder": true,
+  "jscramblerVersion": "7.1",
+  "tolerateMinification": true,
+  "profilingDataMode": "off",
+  "useAppClassification": true,
+  "browsers": {}
+}
+
+

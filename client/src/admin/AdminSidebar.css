@@ -1,0 +1,102 @@
+.educator-sidebar {
+    padding: 10px 5px;
+    background-color: #e7f9e6;
+    color: #686f68;
+  }
+  .educator-icon {
+    text-align: right;
+    margin-bottom: 10px;
+  }
+  .educator-link {
+    padding: 10px;
+    position: sticky;
+      top: 8%;
+      left: 0;
+  }
+  .educator-link > h3 {
+    font-size: 22px;
+    padding: 10px 20px 10px 20px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .side-12{
+      margin-right: 10px;
+  }
+  
+  .teach-bar,
+  .teach-bar:hover {
+    text-decoration: none;
+    color: #686f68;
+  }
+  
+  .educator-link > h3:hover,
+  .educator-link > h3:active {
+    background-color: white;
+    border-radius: 3%;
+    color: #686f68;
+  }
+  @media (max-width: 1600px) {
+    .t-link {
+      width: 21vw;
+    }
+    .t-side {
+      min-width: 22vw !important;
+    }
+  }
+  
+  @media (max-width: 991px) {
+    .t-link {
+      width: 28vw;
+    }
+    .t-side {
+      min-width: 30% !important;
+    }
+  }
+  
+  @media (max-width : 767px) {
+    .t-side {
+      position: absolute;
+      height: 100%;
+      width: 30% !important;
+      z-index: 1000;
+    }
+  }
+  
+  @media (max-width: 614px) {
+    .educator-link {
+      padding: 0px;
+    }
+    .educator-link > h3 {
+      padding: 10px 4px 10px 4px;
+    }
+    
+    .t-side {
+      position: absolute;
+      height: 100%;
+      width: 60% !important;
+      z-index: 1000;
+    }
+    .t-link {
+      width: 54vw;
+    }
+  }
+  @media (max-width:500px) {
+    .educator-icon{
+      display: none;
+    }
+    .educator-link{
+      display: flex;
+    }
+    .educator-sidebar{
+      position: fixed;
+      width: 100%;
+      bottom: 0;
+      z-index: 100;
+    }
+    .educator-link > h3{
+      margin: auto;
+    }
+    
+  }

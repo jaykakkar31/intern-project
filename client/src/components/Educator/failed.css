@@ -1,0 +1,13 @@
+.failed-verify{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #07bc0c;
+    height: 100vh;
+}
+
+.failed-verify h2{
+    font-weight: 600;
+    font-size: 3rem;
+}

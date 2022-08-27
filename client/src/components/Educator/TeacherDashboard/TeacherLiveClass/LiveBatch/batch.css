@@ -1,0 +1,143 @@
+.educator-batch {
+	display: flex;
+	/* height: 100vh; */
+}
+
+.batchPage {
+	width: 100%;
+	margin-left: 30px;
+	margin-right: 30px;
+}
+
+.batchArea {
+	width: 100%;
+	background-color: #e6f1ff;
+	/* height: 100%; */
+	margin-bottom: 30px;
+}
+.batchPage > h4 {
+	margin: 20px 0;
+	color: #272727;
+}
+.batchPage > p {
+	margin: 10px 20px 10px 20px;
+	font-size: 20px;
+}
+.batchArea > form {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	padding: 30px 30px;
+	height: -webkit-fill-available;
+	/* margin: 1.2rem; */
+}
+#textfield {
+	margin: 3px !important;
+	color: #687987;
+}
+.create-btn {
+	width: 130px;
+	height: fit-content;
+	padding: 5px 20px;
+	/* float: right; */
+	display: flex;
+	position: absolute;
+	right: 0;
+	/* margin-left: 55vw; */
+	background-color: 0062e7;
+}
+.cancel-btn {
+	background-color: white;
+	width: 130px;
+	padding: 5px 20px;
+	height: fit-content;
+	color: black;
+}
+.thumbnail {
+	margin-top: 30px !important;
+}
+.thumbnail-label {
+	margin-top: 30px;
+}
+.single-line {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between !important;
+}
+
+.MuiInputBase-input {
+	margin: 2px !important;
+}
+.btns {
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+	margin: 30px 0 30px 0;
+}
+/* .btns span {
+  margin-right: 20px;
+} */
+
+
+
+@media (max-width: 426px) {
+	.batchPage {
+		margin: 0 10px 0 10px;
+	}
+
+    .batchPage .MuiInputBase-root {
+            width: 100%;
+    }
+    .batchArea>form{
+        padding: 30px;
+    }
+    .batchArea{
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 376px) {
+	.batchPage {
+		margin: 0 10px 0 10px;
+	}
+    /* .batchArea>form{
+        padding:0 ;
+    } */
+      .batchArea>form{
+        padding: 20px;
+    }
+    .batchArea{
+        margin-bottom: 10px;
+    }
+	/* .create-btn{
+        width: 10px;
+    }
+    .cancel-btn{
+        width: 120px;
+    } */
+}
+@media (max-width: 320px) {
+	.batchArea {
+		width: 94vw;
+		height: fit-content;
+		margin-bottom: 10px;
+	}
+	.batchArea>form {
+		padding: 20px  ;
+	}
+	.batchPage {
+		margin: 0 10px 0 10px;
+
+
+	}
+     .batchPage .MuiInputBase-root {
+            width: 100%;
+    }
+    .cancel-btn{
+        width: 110px;
+    }
+    .create-btn{
+        width: 120px;
+        padding: 5px 15px;
+    }
+}

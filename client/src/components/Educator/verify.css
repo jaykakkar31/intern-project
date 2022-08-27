@@ -1,0 +1,16 @@
+
+
+.verify{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.verify img{
+    width: 400px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,31 @@
+.live-class{
+    /* margin: 10px 0px 50px 20px; */
+    padding: 10px;
+    border: 1px solid rgb(236, 236, 236);
+    border-radius: 7%;
+    background-color: #d9eaf9cc;
+    /* flex-grow: 1; */
+    cursor: pointer;
+}
+.live-def>div>img{
+    width: 80px !important;
+}
+.right-live>h1{
+    font-size: 17px !important;
+}
+
+#live-bt{
+    margin-top: 20px;
+}
+
+/* 
+@media (max-width : 767px){
+    .live-class{
+        margin-left: 0px;
+    }
+} */
+@media(max-width:500px){
+    .live-class{
+        margin: 12px;
+    }
+}

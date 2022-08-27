@@ -1,0 +1,11 @@
+.admin-home{
+    width: 100%;
+    display: flex;
+}
+
+.admin-home-r{
+    flex-grow: 1;
+    margin: 1rem auto;
+}
+
+

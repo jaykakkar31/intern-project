@@ -1,0 +1,36 @@
+.batch-video{
+    padding: 15px 20px 0px;
+    width: 390px;
+    margin-right: 30px;
+    margin-top: 20px;
+    flex-grow: 1;
+}
+.batch-video>div>img{
+    width: 100%;
+}
+
+.batch-video>h1{
+    font-size: 22px;
+    font-weight: 400;
+}
+.batch-video>div{
+    background-color: #e6f1ff;
+}
+.batch-video>div>p{
+    padding-top: 10px;
+    font-size: 16px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+}
+
+@media (max-width:1141px) {
+    .batch-video{
+        width: 300px;
+    }
+}
+
+@media (max-width:375px) {
+    .batch-video>div>p{
+        font-size: 12px;
+    }
+}

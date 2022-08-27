@@ -1,0 +1,101 @@
+.educator-live {
+  display: flex;
+  /* flex-direction: column; */
+}
+.t-link{
+    display: flex;
+    flex-direction: column;
+}
+.live {
+  width: 50vw;
+  flex-grow: 1;
+  margin-left: 3vw;
+}
+
+.classArea {
+  width: 96%;
+  background-color: #e6f1ff;
+
+  /* height: 60vh; */
+}
+.live>h4 {
+  margin: 20px 0;
+  color: #272727;
+}
+.live>p {
+  margin: 10px 20px 10px 20px;
+  font-size: 20px;
+}
+.classArea>form {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 2.4rem;
+  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
+  /* margin: 1.2rem; */
+}
+/* #textfield {
+  margin: 3px !important;
+  color: #687987;
+} */
+.create {
+  width: 120px;
+  margin-left: auto;
+}
+.thumbnail {
+  margin-top: 30px !important;
+}
+.thumbnail-label {
+  margin-top: 30px;
+}
+.single-line {
+  display: flex;
+  flex-direction: row;
+}
+.single1 {
+  width: 25ch;
+  margin: 0 1.5rem 0 0 !important;
+}
+.single2 {
+  width: 25ch;
+  margin: 0 1.5rem 0 1.5rem !important;
+}
+.single3 {
+  width: 25ch;
+  margin: 0 !important;
+}
+.MuiInputBase-input {
+  margin: 2px !important;
+}
+
+@media (max-width:990px) {
+  .single-line{
+    flex-direction: column !important;
+  }
+  .single1, .single2, .single3{
+    width: 100%;
+    margin-left: 0px !important;
+  }
+  .create{
+    margin-top: 20px;
+  }
+}
+@media (max-width:500px) {
+  .educator-live{
+    display: block;
+  }
+  .live{
+    width: 97%;
+    /* margin-bottom: 40px; */
+  }
+  .classArea>form{
+      margin-bottom: 20px;
+  }
+}
+@media (max-width:424px) {
+  .classArea>form{
+    padding: 2rem 1rem;
+    margin-bottom: 20px;
+    
+  }
+}

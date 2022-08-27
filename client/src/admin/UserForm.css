@@ -1,0 +1,368 @@
+.admin-form{
+    display: flex;
+      
+}
+.edu-personal-info{
+    width: 100%;
+    
+    justify-content: center;
+    padding: 10px;
+	background-color: #f8f8f8;
+}
+
+.details-container {
+	padding: 2% 4%;
+	box-shadow: 0px 0px 10px 0px #0062e752;
+	border-radius: 10px;
+}
+#ex-detail{
+	border-radius: 0;
+	box-shadow: none;
+	padding: 2% 4% 4% 2%;
+}
+
+.details-container-personal-info h3 {
+	font-weight: 500;
+	font-size: 27px;
+}
+
+.e-p-input {
+	width: 100%;
+	padding: 5px;
+	line-height: 2;
+	padding-left: 0;
+	margin-left: 0;
+	outline: none;
+	background-color: #f8f8f8;
+	font-size: 17px;
+	border: none;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #687987;
+}
+
+.details-container-personal-info .flex-div-left {
+	width: 50%;
+	margin-right: 10%;
+}
+.details-container-personal-info .flex-div-right {
+	width: 50%;
+	/* margin-right: 10%; */
+}
+
+.details-container-personal-info .flex-div-left-right {
+	display: flex;
+}
+
+.details-container-personal-info .small-left {
+	width: 50%;
+	margin-right: 10%;
+}
+
+.details-container-personal-info .small-right {
+	width: 50%;
+}
+
+.details-container-personal-info .small-left-right {
+	display: flex;
+}
+
+.social-icon {
+	width: 32px;
+	height: 32px;
+	margin-bottom: 10px;
+	margin-right: 20px;
+}
+
+.social-container {
+	display: flex;
+	align-items: center;
+}
+
+.details-container-education .ed-container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.details-container-education .ed-container .MuiSvgIcon-root {
+	margin-top: 10px;
+	width: 20px;
+	height: 20px;
+}
+
+.flex-div-left-med-container {
+	width: 45%;
+	margin-right: 5%;
+}
+.flex-div-right-med-container {
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.flex-div-right-med-container select {
+	border: none;
+	border-bottom: 1px solid #687987;
+	padding: 10px;
+	width: 25%;
+	color: #687987;
+	background-color: #f8f8f8;
+}
+#start-year {
+	margin-right: 7%;
+}
+.flex-div-right-med-container-line {
+	display: flex;
+}
+
+.flex-div-left-right-med-container {
+	display: flex;
+}
+.details-container-experience .ed-container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.details-container-experience .ed-container .MuiSvgIcon-root {
+	margin-top: 10px;
+	width: 20px;
+	height: 20px;
+}
+
+.ed-btn {
+	padding: 6px 5%;
+}
+
+.details-container-button {
+	margin-top: 30px;
+}
+
+.cancel {
+	color: #ff7f7f;
+	border: 2px solid #ff7f7f;
+	margin-right: 20px;
+}
+.cancel:hover {
+	color: #ff7f7f;
+	/* border: #FF7F7F; */
+}
+
+.vid-upload-container {
+	width: 40%;
+	border-radius: 5px;
+	height: fit-content;
+	border: 1px solid #687987;
+	padding: 30px 0;
+	margin: 30px 0 10px;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.vid-upload-container .MuiSvgIcon-root {
+	color: #687987;
+	height: 65px;
+	width: 55px;
+	margin-bottom: 30px;
+}
+
+.vid-upload-container-left {
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+	align-items: center;
+	border-right: 1px solid #687987;
+}
+.vid-upload-container-right {
+	display: flex;
+	flex-direction: column;
+
+	width: 50%;
+	align-items: center;
+}
+
+.details-container-video p {
+	font-size: 14px;
+	margin: 0;
+	color: #687987;
+}
+/* input{
+      background-color: #0a58ca; */
+
+/* } */
+/* 
+.details-container-video .custom-file-input {
+	color: transparent;
+}
+.details-container-video .custom-file-input::-webkit-file-upload-button {
+	visibility: hidden;
+}
+.details-container-video .custom-file-input::before {
+	content: "  Upload video";
+	background-color: #0d6efd;
+	color: white;
+    margin: 0;
+
+width: 110px;
+	outline: none;
+	
+	cursor: pointer;
+}
+
+
+.details-container-video .custom-file-input:hover::before {
+	border-color: black;
+}
+.details-container-video.custom-file-input:active {
+	outline: 0;
+} */
+
+.custom-file-input {
+	color: transparent;
+}
+.custom-file-input::-webkit-file-upload-button {
+	visibility: hidden;
+}
+.custom-file-input::before {
+	content: "Upload video";
+	color: white;
+	background: #0d6efd;
+	display: flex;
+	justify-content: center;
+	width: 100%;
+
+	border-radius: 3px;
+	padding: 3px 20px;
+	outline: none;
+	white-space: nowrap;
+	
+	cursor: pointer;
+	font-weight: 400;
+	border: none;
+	margin: 0;
+
+	font-size: 16px;
+}
+.custom-file-input:hover::before {
+	border-color: black;
+}
+.custom-file-input:active {
+	outline: 0;
+}
+.details-container-video input {
+	border: none;
+	/* margin-top: 0;
+	height: 100%; */
+	/* margin: 0;
+	font-size: initial; */
+	width: inherit;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0;
+	padding: 0;
+}
+
+/* .details-container-video button {
+	padding: 0;
+	height: 44px;
+	width: 113px;
+} */
+
+.resume-container {
+	border: 2px dashed #687987;
+	width: 40%;
+	padding: 30px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+    margin: 30px 0;
+}
+.resume-container p {
+	margin: 0;
+	color: #687987;
+}
+
+.resume-container .small-p {
+	font-size: 12px;
+	margin-top: 5px;
+}
+
+.resume-container img {
+	height: 75px;
+	width: 75px;
+	color: #687987;
+}
+.resume-container input {
+	border: none;
+height: 38px;
+	width: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0;
+	padding: 0;
+}
+
+.resume-container .custom-file-input{
+margin-top: 30px;
+
+}
+
+.resume-container .custom-file-input::before {
+	content: "Upload resume";
+	color: white;
+	background: #0d6efd;
+	display: flex;
+	justify-content: center;
+	width: 100%;
+
+	border-radius: 3px;
+	padding: 3px 20px;
+	outline: none;
+	white-space: nowrap;
+	
+	cursor: pointer;
+	font-weight: 400;
+	border: none;
+	margin: 0;
+
+	font-size: 16px;
+}
+
+/* Add note*/
+.approve-note>div{
+	background-color: white;
+	margin-bottom: 30px;
+}
+.sub-a-n{
+	width: 23%;
+	padding: 10px 0px 10px 20px;
+	border-radius: 12px;
+}
+#outlined-multiline-static{
+	border: none !important;
+}
+.details-container-personal-info>h4{
+	font-size: 19px;
+}
+.details-container-button{
+	display: flex;
+	justify-content: end;
+}
+.details-container-button>button{
+	cursor: pointer;
+}
+.view-vid{
+	display: flex;
+	margin: 40px 0px;
+}
+.view-vid>div>img{
+	width: 90%;
+	height: auto;
+}
+.icon-right-11{
+	margin-left: 60px;
+	margin-top: auto;
+	margin-bottom: auto;
+}

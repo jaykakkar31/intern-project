@@ -1,0 +1,133 @@
+input[type="email"]:focus,
+input[type="text"]:focus,
+textarea:focus,
+select:focus {
+	border-color: #004fd4 !important;
+}
+.column-date>label {
+	display: block;
+	font-weight: 400 !important;
+	margin-bottom: 0 !important;
+}
+
+.button-primary {
+	background-color: #004fd4 !important;
+	border: 1px solid #004fd4 !important;
+}
+
+.button-danger {
+	background-color: #e53c51 !important;
+	border: 1px solid #e53c51 !important;
+}
+
+.close {
+	cursor: pointer;
+	font-weight: bold;
+	text-align: right;
+}
+
+.Form {
+	border: 1px solid #d1d1d1;
+	padding: 20px;
+	width: fit-content;
+	border-radius: 10px;
+	height: fit-content;
+	position: fixed;
+	background-color: rgba(255, 255, 255);
+	z-index: 3;
+	
+    box-shadow: 8px 7px 59px -5px rgba(0,0,0,0.55);
+	top: 50%;
+	left: 50%;
+
+	transform: translate(-50%, -50%);
+}
+
+.row-date {
+	display: flex;
+	width: fit-content;
+	justify-content: space-evenly;
+}
+
+.column-date {
+	padding: 10px;
+}
+
+.fieldcont {
+	width: fit-content;
+}
+
+.pick {
+	padding: 10px;
+	border-radius: 5px;
+	outline: none;
+	background-image: none;
+	border: 0.1rem solid #d1d1d1;
+	box-shadow: none;
+
+	width: fit-content;
+}
+
+#title {
+	padding: 10px;
+	outline: none;
+	border: 0.1rem solid #d1d1d1;
+	border-radius: 5px;
+	width: 100%;
+}
+
+.title-row {
+	width: 100%;
+	justify-content: start;
+}
+
+.title-column {
+	display: block;
+	width: 100%;
+}
+
+#description {
+	padding: 10px;
+	outline: none;
+	border: 0.1rem solid #d1d1d1;
+	border-radius: 5px;
+	width: 100%;
+	height: 93px;
+}
+.fieldcont {
+	position: relative;
+	margin-top: 20px;
+}
+
+.close {
+	position: absolute;
+	right: 20px;
+	/* margin-bottom: 20px; */
+}
+.btn-row {
+	display: flex;
+	justify-content: flex-end;
+	width: 100%;
+}
+
+.time-row {
+	margin-top: 10px;
+}
+
+.fieldcont>span {
+	margin-left: 10px;
+	font-size: 20px;
+}
+
+.startTime {
+	font-size: 16px;
+    color: gray;
+	border: 0.1rem solid #d1d1d1;
+	/* width: 150px; */
+	height: 12px;
+	border-radius: 5px;
+	outline: none;
+    padding: 15px 20px;
+
+    letter-spacing: 1px;
+}

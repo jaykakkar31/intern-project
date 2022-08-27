@@ -1,0 +1,265 @@
+.educator-settings {
+	display: flex;
+
+	position: relative;
+	/* width: 40vw; */
+}
+.sub-educator-settings {
+	flex-grow: 1;
+	padding: 20px 10px 20px 0px;
+	background-color: rgb(246, 246, 246);
+}
+.settings-head {
+	color: gray;
+	text-align: start;
+	margin-bottom: 3%;
+	padding: 20px 10px 20px 40px;
+}
+
+.edu-container {
+	display: flex;
+}
+
+.set-left-side {
+	min-width: 20%;
+	margin-left: -10px;
+}
+
+.accounts {
+	margin-top: 20px;
+}
+
+.div-pos {
+	position: sticky;
+	top: 10%;
+	left: 0;
+}
+
+.settings {
+	display: flex;
+	align-items: center;
+	margin-left: 10%;
+	margin-bottom: 7%;
+}
+
+.settings-name {
+	margin-left: 10px;
+}
+
+.right-side {
+	flex-grow: 1;
+}
+
+/* Accounts */
+.box-settings {
+	border: 1px solid gray;
+	padding: 0 5%;
+	border-radius: 10px;
+	background-color: white;
+}
+
+.edit-box {
+	display: flex;
+	justify-content: space-between;
+}
+
+.box-heading {
+	display: flex;
+	align-items: flex-start;
+}
+
+.box-heading h3 {
+	margin-top: 10px;
+	margin-bottom: 5%;
+	border-bottom: 1px solid;
+}
+
+.setting-info img {
+	border-radius: 50%;
+	height: 130px;
+	width: 130px;
+	display: flex;
+	align-items: flex-start;
+}
+
+.setting-info h2 {
+	font-weight: 500;
+	margin: 0;
+	text-align: left;
+}
+
+.setting-info {
+	display: flex;
+	margin-bottom: 2%;
+}
+
+.info-teach span {
+	color: grey;
+}
+.info-teach {
+	display: flex;
+	flex-direction: column;
+	margin-left: 5%;
+	justify-content: center;
+}
+
+.details input {
+	width: 100%;
+	padding: 5px;
+	line-height: 2;
+	padding-left: 0;
+	margin-left: 0;
+	font-size: 14px;
+	border: none;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-bottom: 1px solid grey;
+}
+.details input:focus {
+	border: none;
+	outline: none;
+	border-bottom: 1px solid grey;
+}
+
+.detail-left-right {
+	display: flex;
+}
+
+.left-details {
+	width: 50%;
+	margin-right: 10%;
+}
+
+.right-details {
+	width: 50%;
+}
+
+.butns {
+	display: flex;
+	align-self: start;
+	padding: 5px 6%;
+	font-size: 16px;
+	margin-top: 3%;
+	margin-bottom: 4%;
+}
+
+/* Notification */
+.notification {
+	margin-top: 5%;
+	position: relative;
+}
+
+.form-check-input {
+	/* float: none; */
+	position: absolute;
+	right: 10px;
+    
+}
+.form-check{
+    display: flex;
+}
+
+#flexSwitchCheckDefault,
+#flexSwitchCheckSms,
+#flexSwitchCheckChat,
+#flexSwitchCheckLocation,
+#flexSwitchCheck {
+	width: 45px;
+	height: 25px;
+	margin-top: 0;
+}
+
+.form-check-input:checked {
+	background-color: rgb(48, 236, 48);
+	border-color: white;
+}
+
+.toggle {
+	display: flex;
+	margin-bottom: 25px;
+}
+
+.form-check-label {
+	margin: 0;
+}
+
+.toggle .form-check,
+.toggle .form-switch {
+	margin: 0;
+}
+
+.form-check label {
+	font-size: 18px;
+}
+
+/* payment */
+.payment {
+	margin-top: 5%;
+}
+
+.upi-detail-head {
+	margin-top: 15px;
+}
+
+@media (max-width: 1200px) {
+	.set-left-side {
+		min-width: 28% !important;
+	}
+}
+
+@media (max-width: 800px) {
+	.set-left-side {
+		display: none;
+	}
+	.left-details {
+		margin-right: 10px;
+	}
+	.details {
+		padding: 15px 0px !important;
+	}
+	.right-side {
+		margin-left: 15px;
+	}
+	.details input {
+		font-size: 11px !important;
+	}
+	.butns {
+		font-size: 12px;
+	}
+	.box-heading h3 {
+		font-size: 18px;
+	}
+	.form-check label,
+	.upi-detail-head > h4,
+	.bank-detail-head > h4 {
+		font-size: 14px;
+	}
+	.setting-info img {
+		width: 60px;
+		height: 60px;
+	}
+	.setting-info h2 {
+		font-size: 17px;
+	}
+}
+
+@media (max-width: 500px) {
+	.right-side {
+		margin-left: 5px;
+	}
+	.educator-settings {
+		display: block;
+	}
+	.settings-head {
+		padding: 20px 10px 3px 24px;
+	}
+}
+@media (max-width: 426px) {
+	#flexSwitchCheckDefault,
+	#flexSwitchCheckSms,
+	#flexSwitchCheckChat,
+	#flexSwitchCheckLocation,
+	#flexSwitchCheck {
+		width: 45px;
+	}
+}

@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  .iezal-nav {
+    background-color: #e9fde6;
+    min-height: 51px;
+    padding: 2px 0px 0px 0px;
+    display: flex;
+    justify-content: space-between;
+    word-spacing: 1mm;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 199;
+    box-shadow: 0px 0px 34px -5px rgba(0, 0, 0, 0.11);
+    .iezal-brand{
+      cursor: pointer;
+    }
+    .iezal-brand>img{
+      margin-top: 8px;
+      margin-left: 10rem;
+    }
+    .iezal-nav-items{
+      padding-right: 0px !important;
+      ul{
+        display: flex;
+        text-decoration: none;
+        list-style: none;
+        margin-right: 3rem;
+        margin-bottom: 0px;
+        .search-se{
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            margin-top: 7px;
+            input{
+                border:none;
+                border-radius: 5px;
+                box-shadow: 0px 0px 35px rgba(0, 0, 0, 0.03);
+                padding: 8px 8px 8px 32px;
+                font-size: 14px;
+                color: grey;
+                
+            }
+            input:focus{
+                outline: none;
+            }
+            
+        }
+        li{
+          margin: 13px 25px 0px 25px;
+          cursor: pointer;
+          a{
+          text-decoration: none;
+          font-family: Helvetica, sans-serif;
+          font-weight: 400;
+          color: grey;
+        }
+        
+      }
+      }
+      .iezal-bar{
+        display: none;
+      }
+    }
+  }
+  #login-sty{
+    margin-top: 10px;
+  }
+  .iezal-box-list{
+    a{
+      text-decoration: none;
+      color: grey;
+    }
+  }
+  
+  @media (min-width:993px) {
+    #iezal-clas-res, #iezal-login-small{
+      display: none !important;
+    }
+  }
+  
+  @media (max-width:993px) {
+    .iezal-nav{
+      
+      .iezal-brand>img{
+        margin-left: 4rem;
+      }
+      .iezal-nav-items{
+        ul{
+          flex-direction: row-reverse;
+          margin-right: 1rem;
+        }
+      }
+      #iezal-res-1{
+        display: none;
+      }
+     
+      .iezal-bar{
+        display: block !important;
+      }
+    }
+    #iezal-login-big{
+      display: none;
+    }
+  }
+  
+  @media (max-width:426px) {
+    .iezal-nav{
+      .iezal-brand>img{
+        margin-left: 1rem;
+      }
+      .iezal-nav-items{
+        ul{
+          margin-right: 0rem;
+        }
+      }
+    }
+  }

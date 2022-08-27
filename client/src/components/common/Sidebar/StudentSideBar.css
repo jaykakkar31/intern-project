@@ -1,0 +1,66 @@
+.student-sideBar{
+    width: 27vw;
+    text-align: center; 
+}
+.student-sideBar>h1{
+    color: rgb(101, 101, 101);
+    font-size: 27px;
+    margin-bottom: 30px;
+}
+
+.student-sideBar>div{
+    color: rgb(182, 182, 182);
+    text-align: left;
+   width: 42%;
+   margin: auto;
+}
+
+.student-sideBar>div>h3{
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 26px;
+    cursor: pointer;
+}
+.link{
+    text-decoration: none;
+    color:  rgb(182, 182, 182) !important;
+}
+
+.active1{
+    color:rgb(68, 68, 68) !important;
+    text-decoration: none;
+}
+@media (max-width:1440px) {
+    .student-sideBar{
+        width: 28vw;
+    }
+    .student-sideBar>h1{
+        font-size: 25px;
+    }
+    .student-sideBar>div{
+        width: max-content;
+    }
+    .student-sideBar>div>h3{
+        font-size: 18px;
+    }
+}
+
+@media (max-width:844px) {
+    .student-sideBar{
+        width: 28vw;
+    }
+    .student-sideBar>h1{
+        font-size: 18px;
+    }
+    .student-sideBar>div{
+        width: max-content;
+    }
+    .student-sideBar>div>h3{
+        font-size: 14px;
+    }
+}
+@media (max-width:426px) {
+    .student-sideBar{
+        display: none;
+    }
+}

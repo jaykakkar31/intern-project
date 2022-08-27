@@ -1,0 +1,50 @@
+
+.out-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.month-box{
+    display: flex;
+    border: 1px solid #eee;
+    flex:1 1 calc(100%/7) ;
+    background: white;
+    height: 165px;
+    cursor: pointer;
+    border-radius: 5px;
+    align-items: center;
+    flex-direction: column;
+    /* justify-content: center; */
+
+}
+
+
+.month-box:not(.current-month){
+    color: gray;
+}
+
+.event{
+font-size: 12px;
+}
+.style-month-box>div{
+    width: 100%;
+    text-align: center;
+    margin-top: 13px;
+}
+.style-month-box>div>div{
+    text-align: left;
+    background-color: #2293dc;
+	color: white;
+    margin-top: 5px;
+    border-radius: 6px;
+    
+
+}
+.style-month-box>div>div>p{
+    margin: 0px;
+    padding: 2px;
+    margin-left: 12px;
+    font-size: 14px;
+}
